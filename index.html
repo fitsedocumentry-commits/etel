@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EtelTravel | Coming Soon</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h1>COMING SOON</h1>
+
+  <p class="amharic">
+    ድህረ ገጻችን በግንባታ ላይ ነው። ኢሜይልዎን ያስገቡ እና ሲጀምር እናሳውቅዎታለን!
+  </p>
+
+  <div class="countdown">
+    <div class="box"><h2 id="days">00</h2><span>ቀኖች</span></div>
+    <div class="box"><h2 id="hours">00</h2><span>ሰዓታት</span></div>
+    <div class="box"><h2 id="minutes">00</h2><span>ደቂቃዎች</span></div>
+    <div class="box"><h2 id="seconds">00</h2><span>ሰከንዶች</span></div>
+  </div>
+
+  <!-- EMAIL SUBSCRIPTION -->
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="email" name="email" placeholder="ኢሜይልዎን ያስገቡ" required>
+
+    <input type="hidden" name="_subject" value="EtelTravel – Coming Soon">
+    <input type="hidden" name="_autoresponse"
+      value="We will start soon from EtelTravel. Contact us at 0942232011.">
+
+    <button type="submit">አሳውቀኝ</button>
+  </form>
+
+  <button class="toggle" onclick="toggleMode()">🌙 / ☀️ Dark | Light</button>
+
+  <footer>
+    © 2026 EtelTravel | 0942232011
+  </footer>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
